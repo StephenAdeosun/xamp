@@ -16,7 +16,7 @@ function index() {
         <ChooseUs/>
         <RealEstate/>
         <ExploreList/>
-        <Discover/>
+        {/* <Discover/> */}
         <AccessPower/>
         <Footer/>
     </div>
