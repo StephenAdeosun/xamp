@@ -1,15 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../public/logo.svg";
-import Facebook from "../public/facebook.svg";
-import Twitter from "../public/twitter.svg";
-import Instagram from "../public/instagram.svg";
+import Logo from "@/public/logo.svg";
+import Facebook from "@/public/facebook.svg";
+import Twitter from "@/public/twitter.svg";
+import Instagram from "@/public/instagram.svg";
 
 function footer() {
   return (
     <div className="bg-[#0E294B] pb-[48px] min-h-[364px] mt-[64px] pt-[64px] ">
-      <div className="max-w-[1280px] mx-[16px]   min-h-[132px] ">
+      <div className="max-w-[1216px] mx-[16px]   min-h-[132px] ">
         <div className=" flex  md:flex-row flex-col  justify-between ">
           <div className="">
             <div>

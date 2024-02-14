@@ -3,7 +3,7 @@ import { useState,useEffect } from "react";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Logo from "../public/logo1.svg";
+import Logo from "@/public/logo1.svg";
 import Image from "next/image"; 
 
 const Navbar = () => {
@@ -82,7 +82,7 @@ const Navbar = () => {
                 <Link href="/about" className=" px-[20px] py-[16px]">
                 About
                 </Link>
-                <Link href="/about" className=" px-[20px]  py-[16px]">
+                <Link href="/faq" className=" px-[20px]  py-[16px]">
                 FAQs
                 </Link>
                 <Link href="/about" className=" px-[20px]  py-[16px]">
@@ -106,7 +106,7 @@ const Navbar = () => {
                 <Link href="/" className=" px-[20px] block py-[12px]" data-aos="fade-left" data-aos-duration='500'>
                   About
                 </Link>
-                <Link href="/" className=" px-[20px] block py-[12px]" data-aos="fade-left" data-aos-duration='600'>
+                <Link href="/faq" className=" px-[20px] block py-[12px]" data-aos="fade-left" data-aos-duration='600'>
                   FAQs
                 </Link>
                 <Link href="/" className=" px-[20px] block py-[12px]" data-aos="fade-left" data-aos-duration='700'>

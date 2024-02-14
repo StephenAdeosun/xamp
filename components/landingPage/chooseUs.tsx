@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import C1 from "../public/c1.png";
-import C2 from "../public/c2.png";
-import C3 from "../public/c3.png";
-import C4 from "../public/c4.png";
-import C5 from "../public/c5.png";
-import C6 from "../public/c6.png";
+import C1 from "@/public/c1.png";
+import C2 from "@/public/c2.png";
+import C3 from "@/public/c3.png";
+import C4 from "@/public/c4.png";
+import C5 from "@/public/c5.png";
+import C6 from "@/public/c6.png";
 
 function chooseUs() {
   const card = [

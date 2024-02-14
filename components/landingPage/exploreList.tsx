@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import List1 from "../public/list.png";
-import List2 from "../public/list2.svg";
-import List3 from "../public/list3.svg";
-import List4 from "../public/list4.svg";
-import List5 from "../public/lists.svg";
-import Arrow from "../public/arrow.svg";
+import List1 from "@/public/list.png";
+import List2 from "@/public/list2.svg";
+import List3 from "@/public/list3.svg";
+import List4 from "@/public/list4.svg";
+import List5 from "@/public/lists.svg";
+import Arrow from "@/public/arrow.svg";
 import Link from "next/link";
 
 function exploreList() {
